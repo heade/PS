@@ -66,6 +66,13 @@
         <processorPath useClasspath="true" />
         <module name="configuration" />
       </profile>
+      <profile default="false" name="Annotation profile for somethingelse" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="somethingelse" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
@@ -75,6 +82,7 @@
       <module name="Paytheos" target="1.8" />
       <module name="repository" target="1.8" />
       <module name="service" target="1.8" />
+      <module name="somethingelse" target="1.8" />
       <module name="web" target="1.4" />
     </bytecodeTargetLevel>
   </component>
