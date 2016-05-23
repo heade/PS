@@ -17,6 +17,7 @@
         <module>service</module>
         <module>api</module>
         <module>configuration</module>
+        <module>somethingelse</module>
     </modules>
 
     <dependencies>
@@ -55,5 +56,5 @@
         </plugins>
     </build>
 
-    asdasdasdasdasdasdasd
+
 </project>
